@@ -36,7 +36,28 @@ public class matrixGenerator {
         for (int i=1; i<=size; i++){
             subMatrix = new ArrayList<Integer>(size);
             for (int j=0; j<=size; j++) {
-                if (rand.nextInt(10)>8){
+                if (rand.nextInt(10)<7){
+                    subMatrix.add(0);
+                }
+                else{
+                    subMatrix.add(rand.nextInt(100));
+                }
+            }
+            matrix.add(subMatrix);
+        }
+        AdjacencyMatrix adMatric = new AdjacencyMatrix(matrix);
+        return adMatric;
+    }
+
+    public static AdjacencyMatrix GenerateCycleGraphOriented(int size) {
+        ArrayList<Integer> subMatrix;
+        ArrayList<ArrayList<Integer>> matrix = new ArrayList<ArrayList<Integer>>(size);
+        Random rand = new Random();
+        for (int i=1; i<=(rand.nextInt(size-2)+2); i++){
+            //TODO
+            subMatrix = new ArrayList<Integer>(size);
+            for (int j=0; j<=size; j++) {
+                if (rand.nextInt(10)<7){
                     subMatrix.add(0);
                 }
                 else{
