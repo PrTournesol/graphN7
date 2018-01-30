@@ -7,9 +7,14 @@ import exceptions.WrongSizeException;
 
 public class AdjacencyMatrix {
     private ArrayList<ArrayList<Integer>> data;
+    private ArrayList<String> names;
 
     public AdjacencyMatrix(ArrayList<ArrayList<Integer>> data) {
         this.data = data;
+        this.names = new ArrayList<String>();
+        for (int i=1; i<= size(); i++){
+            names.add(""+i);
+        }
     }
 
     public AdjacencyMatrix() {
@@ -51,7 +56,39 @@ public class AdjacencyMatrix {
         }
     }
 
-    public ArrayList<ArrayList<Integer>> getData() {
-        return data;
+    public String toString(){
+        String rep="";
+        int i;
+        rep+="\t";
+        for (String stg: names){
+            rep+="\t"+stg;
+        }
+        rep+="\n\t";
+        for (int j=0; j<size();j++){
+            rep+="\t|";
+        }
+        rep+="\n";
+        i=0;
+        for (ArrayList<Integer> vertex: data) {
+            rep+=names.get(i) + "\t-";
+            i++;
+            for (Integer nb:vertex) {
+                rep+=" \t"+nb;
+            }
+            rep+="\n";
+        }
+        return rep;
+    }
+
+    public int size() {
+        return data.size();
+    }
+
+    public int getWeight(int index, int subIndex) {
+        return data.get(index).get(subIndex);
+    }
+
+    public String getName(int index){
+        return names.get(index);
     }
 }
