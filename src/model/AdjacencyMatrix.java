@@ -1,5 +1,6 @@
 package model;
 
+import java.lang.invoke.WrongMethodTypeException;
 import java.util.ArrayList;
 
 import exceptions.VertexInexistentException;
@@ -8,9 +9,11 @@ import exceptions.WrongSizeException;
 public class AdjacencyMatrix {
     private ArrayList<ArrayList<Integer>> data;
     private ArrayList<String> names;
+    private boolean orientedMx; //true if the theMatrix to generate is oriented
 
-    public AdjacencyMatrix(ArrayList<ArrayList<Integer>> data) {
+    public AdjacencyMatrix(ArrayList<ArrayList<Integer>> data, boolean oriented) {
         this.data = data;
+        this.orientedMx=oriented;
         this.names = new ArrayList<String>();
         for (int i=1; i<= size(); i++){
             names.add(""+i);
@@ -90,5 +93,16 @@ public class AdjacencyMatrix {
 
     public String getName(int index){
         return names.get(index);
+    }
+
+    public void setNames(ArrayList<String> names) throws WrongSizeException {
+        if (names.size() != this.size()){
+            throw new WrongSizeException();
+        }
+        this.names = names;
+    }
+
+    public boolean isOrientedMx() {
+        return orientedMx;
     }
 }
