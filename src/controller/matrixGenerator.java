@@ -51,7 +51,7 @@ public class matrixGenerator {
         this.size=size;
         theMatrix=null;
     }
-    
+
     public AdjacencyMatrix generateRandGraph() {
         ArrayList<Integer> subMatrix;
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<ArrayList<Integer>>(size);

@@ -2,115 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f45ec91-fd45-4d86-a172-4779ac2c2d1a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/linux_bin/dot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/GVedit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/Graphviz.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/New Text Document.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/Pathplan.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/QtCore4.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/QtGui4.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/Settings.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/Temp.rar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/acyclic.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/ann.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/bcomps.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/ccomps.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/cdt.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/cgraph.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/circo.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/config.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/config6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/diffimg.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/dijkstra.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/dot.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/dotty.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/edgepaint.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/exparse.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fc-cache.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fc-cat.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fc-list.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fc-match.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fdp.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fontconfig.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/fontconfig_fix.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/freetype6.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gc.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gd.tgz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gd.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/getopt.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/glut32.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gml2gv.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/graphml2gv.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gts.lib" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gts.tgz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gv2gml.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvc.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvcolor.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvedit.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvgen.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvmap.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvpack.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_core.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_dot_layout.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_gd.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_gdiplus.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_neato_layout.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvplugin_pango.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gvpr.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/gxl2gv.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/iconv.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/intl.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/jpeg62.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/lefty.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libatk-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libcairo-2.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libexpat-1.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libexpat.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libfontconfig-1.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libfreetype-6.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgdk-win32-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgdk_pixbuf-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgdkglext-win32-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgio-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libglade-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libglib-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgmodule-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgobject-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgthread-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgtk-win32-2.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libgtkglext-win32-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libltdl-3.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpango-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpangocairo-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpangoft2-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpangowin32-1.0-0.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpng12.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libpng14-14.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/librsvg-2-2.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/libxml2.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/lneato.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/ltdl.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/mingle.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/mm2gv.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/neato.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/nop.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/osage.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/patchwork.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/props.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/prune.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/sccmap.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/sfdp.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/smyrna.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/tred.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/twopi.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/unflatten.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/vmalloc.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/graphviz/windows_bin/zlib1.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/exceptions/NonOrientedMatrixException.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" afterPath="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/graphzDotGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/graphzDotGenerator.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/graphzDotGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/graphzDotGenerator.html" />
+      <change beforePath="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" afterPath="$PROJECT_DIR$/src/controller/graphzDotConverter.java" />
       <change beforePath="$PROJECT_DIR$/src/controller/matrixGenerator.java" afterPath="$PROJECT_DIR$/src/controller/matrixGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/model/AdjacencyMatrix.java" afterPath="$PROJECT_DIR$/src/model/AdjacencyMatrix.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,53 +37,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matrixGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matrixGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/matrixGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+            <state relative-caret-position="-180">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1149#1150#0" expanded="true" />
                 <element signature="e#1178#1179#0" expanded="true" />
                 <element signature="e#1344#1345#0" expanded="true" />
                 <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1843#1863#0" expanded="true" />
-                <element signature="e#2927#2947#0" expanded="true" />
-                <element signature="e#4233#4241#0" expanded="true" />
-                <element signature="e#4820#4840#0" expanded="true" />
-                <element signature="e#5513#5514#0" expanded="true" />
-                <element signature="e#5557#5558#0" expanded="true" />
-                <element signature="e#5594#5595#0" expanded="true" />
-                <element signature="e#5627#5628#0" expanded="true" />
-                <element signature="e#5738#5739#0" expanded="true" />
-                <element signature="e#5770#5771#0" expanded="true" />
-                <element signature="e#5910#5911#0" expanded="true" />
-                <element signature="e#5942#5943#0" expanded="true" />
+                <element signature="e#1839#1859#0" expanded="true" />
+                <element signature="e#2923#2943#0" expanded="true" />
+                <element signature="e#4229#4237#0" expanded="true" />
+                <element signature="e#4816#4836#0" expanded="true" />
+                <element signature="e#5509#5510#0" expanded="true" />
+                <element signature="e#5553#5554#0" expanded="true" />
+                <element signature="e#5590#5591#0" expanded="true" />
+                <element signature="e#5623#5624#0" expanded="true" />
+                <element signature="e#5734#5735#0" expanded="true" />
+                <element signature="e#5766#5767#0" expanded="true" />
+                <element signature="e#5906#5907#0" expanded="true" />
+                <element signature="e#5938#5939#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphzDotGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+      <file leaf-file-name="graphzDotConverter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="270">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphViz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/GraphViz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
+                <element signature="e#3632#3633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,10 +100,14 @@
       <find>writeGraphTo</find>
       <find>write</find>
       <find>program</find>
+      <find>stg</find>
+      <find>graphzDotGenerator</find>
+      <find>os</find>
     </findStrings>
     <replaceStrings>
       <replace>Edge</replace>
       <replace>edge</replace>
+      <replace>dotContent</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -243,12 +133,13 @@
         <option value="$PROJECT_DIR$/src/controller/generator.java" />
         <option value="$PROJECT_DIR$/src/test/test_AdjecencyMatrix.java" />
         <option value="$PROJECT_DIR$/src/controller/graphvizAPI/source.java" />
-        <option value="$PROJECT_DIR$/src/controller/GraphViz.java" />
         <option value="$PROJECT_DIR$/src/exceptions/VertexInexistentException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NonOrientedMatrixException.java" />
         <option value="$PROJECT_DIR$/src/model/AdjacencyMatrix.java" />
-        <option value="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" />
         <option value="$PROJECT_DIR$/src/controller/matrixGenerator.java" />
+        <option value="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" />
+        <option value="$PROJECT_DIR$/src/controller/GraphViz.java" />
+        <option value="$PROJECT_DIR$/src/controller/graphzDotConverter.java" />
       </list>
     </option>
   </component>
@@ -356,7 +247,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -434,7 +325,7 @@
     </configuration>
     <configuration name="graphzDotGenerator.main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="controller.graphzDotGenerator" />
+      <option name="MAIN_CLASS_NAME" value="controller.graphzDotConverter" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -448,7 +339,7 @@
     </configuration>
     <configuration name="graphzDotGenerator.main2" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="controller.graphzDotGenerator" />
+      <option name="MAIN_CLASS_NAME" value="controller.graphzDotConverter" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -859,12 +750,12 @@
       <workItem from="1517559217729" duration="7564000" />
       <workItem from="1517578855894" duration="423000" />
       <workItem from="1518106752458" duration="68000" />
-      <workItem from="1518110165759" duration="3241000" />
+      <workItem from="1518110165759" duration="5245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39564000" />
+    <option name="totallyTimeSpent" value="41568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -879,12 +770,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42834646" sideWeight="0.31844804" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17165354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31389183" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38176033" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -896,10 +789,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -971,18 +862,18 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,12 +891,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1030,18 +923,18 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,12 +952,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1089,18 +984,18 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1128,28 +1023,30 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1174,28 +1071,30 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1233,28 +1132,30 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1270,18 +1171,18 @@
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1464,16 +1365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/GraphViz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/AdjacencyMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="787">
@@ -1488,38 +1379,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/matrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="-180">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1149#1150#0" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1344#1345#0" expanded="true" />
             <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1843#1863#0" expanded="true" />
-            <element signature="e#2927#2947#0" expanded="true" />
-            <element signature="e#4233#4241#0" expanded="true" />
-            <element signature="e#4820#4840#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5557#5558#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5627#5628#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-            <element signature="e#5910#5911#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1839#1859#0" expanded="true" />
+            <element signature="e#2923#2943#0" expanded="true" />
+            <element signature="e#4229#4237#0" expanded="true" />
+            <element signature="e#4816#4836#0" expanded="true" />
+            <element signature="e#5509#5510#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5623#5624#0" expanded="true" />
+            <element signature="e#5734#5735#0" expanded="true" />
+            <element signature="e#5766#5767#0" expanded="true" />
+            <element signature="e#5906#5907#0" expanded="true" />
+            <element signature="e#5938#5939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/GraphViz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
           </folding>
         </state>
       </provider>
