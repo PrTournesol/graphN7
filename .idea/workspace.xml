@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f45ec91-fd45-4d86-a172-4779ac2c2d1a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/mainController.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/mainController.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/matrixGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/matrixGenerator.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/mainController.html" afterPath="$PROJECT_DIR$/doc/controller/mainController.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/matrixGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/matrixGenerator.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/package-frame.html" afterPath="$PROJECT_DIR$/doc/controller/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/package-summary.html" afterPath="$PROJECT_DIR$/doc/controller/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/package-tree.html" afterPath="$PROJECT_DIR$/doc/controller/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/package-use.html" afterPath="$PROJECT_DIR$/doc/controller/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/VertexInexistentException.html" afterPath="$PROJECT_DIR$/doc/exceptions/VertexInexistentException.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/WrongSizeException.html" afterPath="$PROJECT_DIR$/doc/exceptions/WrongSizeException.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/class-use/VertexInexistentException.html" afterPath="$PROJECT_DIR$/doc/exceptions/class-use/VertexInexistentException.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/class-use/WrongSizeException.html" afterPath="$PROJECT_DIR$/doc/exceptions/class-use/WrongSizeException.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-frame.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-summary.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-tree.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-use.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
-      <change beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/AdjacencyMatrix.html" afterPath="$PROJECT_DIR$/doc/model/AdjacencyMatrix.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/class-use/AdjacencyMatrix.html" afterPath="$PROJECT_DIR$/doc/model/class-use/AdjacencyMatrix.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/package-frame.html" afterPath="$PROJECT_DIR$/doc/model/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/package-summary.html" afterPath="$PROJECT_DIR$/doc/model/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/package-tree.html" afterPath="$PROJECT_DIR$/doc/model/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/doc/model/package-use.html" afterPath="$PROJECT_DIR$/doc/model/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-frame.html" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
-      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/class-use/test.html" afterPath="$PROJECT_DIR$/doc/test/class-use/test.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/class-use/testGraphizAPI.html" afterPath="$PROJECT_DIR$/doc/test/class-use/testGraphizAPI.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/class-use/test_AdjecencyMatrix.html" afterPath="$PROJECT_DIR$/doc/test/class-use/test_AdjecencyMatrix.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/package-frame.html" afterPath="$PROJECT_DIR$/doc/test/package-frame.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/package-summary.html" afterPath="$PROJECT_DIR$/doc/test/package-summary.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/package-tree.html" afterPath="$PROJECT_DIR$/doc/test/package-tree.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/package-use.html" afterPath="$PROJECT_DIR$/doc/test/package-use.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/test.html" afterPath="$PROJECT_DIR$/doc/test/test.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/testGraphizAPI.html" afterPath="$PROJECT_DIR$/doc/test/testGraphizAPI.html" />
-      <change beforePath="$PROJECT_DIR$/doc/test/test_AdjecencyMatrix.html" afterPath="$PROJECT_DIR$/doc/test/test_AdjecencyMatrix.html" />
-      <change beforePath="$PROJECT_DIR$/src/controller/GraphViz.java" afterPath="" />
-    </list>
+    <list default="true" id="4f45ec91-fd45-4d86-a172-4779ac2c2d1a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,8 +62,8 @@
       <file leaf-file-name="graphzDotConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="504">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3599#3600#0" expanded="true" />
@@ -795,6 +735,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -805,7 +746,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42834646" sideWeight="0.31844804" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17165354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06468717" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06468717" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1440,8 +1381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/graphzDotConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="504">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3599#3600#0" expanded="true" />
