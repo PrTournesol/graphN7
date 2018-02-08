@@ -3,10 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="4f45ec91-fd45-4d86-a172-4779ac2c2d1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/graphzDotGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/graphzDotGenerator.html" />
-      <change beforePath="$PROJECT_DIR$/doc/controller/graphzDotGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/graphzDotGenerator.html" />
-      <change beforePath="$PROJECT_DIR$/src/controller/graphzDotGenerator.java" afterPath="$PROJECT_DIR$/src/controller/graphzDotConverter.java" />
-      <change beforePath="$PROJECT_DIR$/src/controller/matrixGenerator.java" afterPath="$PROJECT_DIR$/src/controller/matrixGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/mainController.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/mainController.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/class-use/matrixGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/class-use/matrixGenerator.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/mainController.html" afterPath="$PROJECT_DIR$/doc/controller/mainController.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/matrixGenerator.html" afterPath="$PROJECT_DIR$/doc/controller/matrixGenerator.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/package-frame.html" afterPath="$PROJECT_DIR$/doc/controller/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/package-summary.html" afterPath="$PROJECT_DIR$/doc/controller/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/package-tree.html" afterPath="$PROJECT_DIR$/doc/controller/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/doc/controller/package-use.html" afterPath="$PROJECT_DIR$/doc/controller/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/VertexInexistentException.html" afterPath="$PROJECT_DIR$/doc/exceptions/VertexInexistentException.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/WrongSizeException.html" afterPath="$PROJECT_DIR$/doc/exceptions/WrongSizeException.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/class-use/VertexInexistentException.html" afterPath="$PROJECT_DIR$/doc/exceptions/class-use/VertexInexistentException.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/class-use/WrongSizeException.html" afterPath="$PROJECT_DIR$/doc/exceptions/class-use/WrongSizeException.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-frame.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-summary.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-tree.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/doc/exceptions/package-use.html" afterPath="$PROJECT_DIR$/doc/exceptions/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/AdjacencyMatrix.html" afterPath="$PROJECT_DIR$/doc/model/AdjacencyMatrix.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/class-use/AdjacencyMatrix.html" afterPath="$PROJECT_DIR$/doc/model/class-use/AdjacencyMatrix.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/package-frame.html" afterPath="$PROJECT_DIR$/doc/model/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/package-summary.html" afterPath="$PROJECT_DIR$/doc/model/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/package-tree.html" afterPath="$PROJECT_DIR$/doc/model/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/doc/model/package-use.html" afterPath="$PROJECT_DIR$/doc/model/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-frame.html" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
+      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/class-use/test.html" afterPath="$PROJECT_DIR$/doc/test/class-use/test.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/class-use/testGraphizAPI.html" afterPath="$PROJECT_DIR$/doc/test/class-use/testGraphizAPI.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/class-use/test_AdjecencyMatrix.html" afterPath="$PROJECT_DIR$/doc/test/class-use/test_AdjecencyMatrix.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-frame.html" afterPath="$PROJECT_DIR$/doc/test/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-summary.html" afterPath="$PROJECT_DIR$/doc/test/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-tree.html" afterPath="$PROJECT_DIR$/doc/test/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-use.html" afterPath="$PROJECT_DIR$/doc/test/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/test.html" afterPath="$PROJECT_DIR$/doc/test/test.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/testGraphizAPI.html" afterPath="$PROJECT_DIR$/doc/test/testGraphizAPI.html" />
+      <change beforePath="$PROJECT_DIR$/doc/test/test_AdjecencyMatrix.html" afterPath="$PROJECT_DIR$/doc/test/test_AdjecencyMatrix.html" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GraphViz.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,11 +257,6 @@
             <path>
               <item name="graphN7" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphN7" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphN7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphN7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,24 +264,6 @@
               <item name="graphN7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphN7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphN7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphN7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphN7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphN7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphN7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,6 +286,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="graphn7" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -750,16 +786,15 @@
       <workItem from="1517559217729" duration="7564000" />
       <workItem from="1517578855894" duration="423000" />
       <workItem from="1518106752458" duration="68000" />
-      <workItem from="1518110165759" duration="5245000" />
+      <workItem from="1518110165759" duration="5606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41568000" />
+    <option name="totallyTimeSpent" value="41929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -770,11 +805,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42834646" sideWeight="0.31844804" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17165354" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38176033" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06468717" sideWeight="0.681552" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37751856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -846,9 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,9 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,9 +999,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,9 +1084,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,9 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="141" column="12" lean-forward="false" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,9 +1434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
