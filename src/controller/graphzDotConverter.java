@@ -28,8 +28,8 @@ public class graphzDotConverter {
         gpzGenerator.MatrixToGpzString(matrix);
         System.out.println(gpzGenerator.getDotContent());
 
-        gpzGenerator.generateFile("out/graphs/graph.dot");
-        gpzGenerator.generateSVG("out/graphs/graph.dot");
+        gpzGenerator.generateFile("./graphs/graph.dot");
+        gpzGenerator.generateSVG("./graphs/graph.dot");
 
 
     }
@@ -68,7 +68,31 @@ public class graphzDotConverter {
         dotContent+="}";
     }
 
+    public void prepareEnv() {
+        System.out.println(osName);
+        File fic = new File("./graphs");
+        if (!fic.exists()) {
+            fic.mkdir();
+        }
+        fic = new File("./graphviz");
+        if (!fic.exists()) {
+            try {
+                Process p = Runtime.getRuntime().exec("jar xf Graph_TP_option1.jar graphviz");
+                java.io.BufferedReader out = new java.io.BufferedReader(new java.io.InputStreamReader(p.getInputStream()));
+                String line;
+                while((line=out.readLine())!= null){
+                    System.out.println(line);
+                    System.out.flush();
+                }
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
+
     public void generateFile (String name) {
+        this.prepareEnv();
         Writer writer = null;
         try {
             writer = new BufferedWriter(new OutputStreamWriter(
@@ -89,13 +113,13 @@ public class graphzDotConverter {
 
     public void generateSVG (String name) {
         if (osName.contains("Windows")) {
-            String command = "lib/graphviz/windows_bin/dot ";
+            String command = "graphviz/windows_bin/dot ";
         } else {
-            String command = "lib/graphviz/linux_bin/dot ";
+            String command = "graphviz/linux_bin/dot ";
         }
 
 
-        String command = "lib/graphviz/windows_bin/dot ";
+        String command = "graphviz/windows_bin/dot ";
         command += " -Tsvg -o ";
         command += name.substring(0, name.length() - 3);
         command += "svg ";
