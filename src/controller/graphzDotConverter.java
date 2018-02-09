@@ -14,7 +14,7 @@ public class graphzDotConverter {
     private String dotContent;
 
 
-    public static void main (String args[]) throws Exception{
+    public static void main (String args[]) {
         graphzDotConverter obj = new graphzDotConverter();
 
         //génération de la matrice
