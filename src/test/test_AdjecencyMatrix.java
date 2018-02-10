@@ -14,7 +14,7 @@ public class test_AdjecencyMatrix {
 
         AdjacencyMatrix matriceTest;
         matriceTest = new AdjacencyMatrix();
-        System.out.println("size of matriceTest : " +  matriceTest.size());
+        System.out.println("getSize of matriceTest : " +  matriceTest.getSize());
 
         ArrayList<Integer> edge1 = new ArrayList<Integer>();
         edge1.add(65);
@@ -32,7 +32,7 @@ public class test_AdjecencyMatrix {
         edge3.add(1);
         edge3.add(2);
         edge3.add(3);
-        System.out.println("vertex3.getWeight(2)" + edge3.get(2));
+        System.out.println("vertex3.getVertex(2)" + edge3.get(2));
         matriceTest.addVertexNonOriented(edge3,1);
         System.out.println(matriceTest.toString());
 

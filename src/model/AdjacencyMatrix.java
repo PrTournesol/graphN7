@@ -1,6 +1,5 @@
 package model;
 
-import java.lang.invoke.WrongMethodTypeException;
 import java.util.ArrayList;
 
 import exceptions.VertexInexistentException;
@@ -10,13 +9,23 @@ public class AdjacencyMatrix {
     private ArrayList<ArrayList<Integer>> data;
     private ArrayList<String> names;
     private boolean orientedMx; //true if the theMatrix to generate is oriented
+    private int size;
 
     public AdjacencyMatrix(ArrayList<ArrayList<Integer>> data, boolean oriented) {
         this.data = data;
         this.orientedMx=oriented;
         this.names = new ArrayList<String>();
-        for (int i=1; i<= size(); i++){
+        this.size=data.size();
+        for (int i = 0; i< getSize(); i++){
             names.add(""+i);
+        }
+        // complete the vertexes with the good one
+        if (!oriented) {
+            for (int i = 0; i < size; i++) {
+                for (int j = 0; j < i; j++) {
+                    data.get(i).add(j, data.get(j).get(i));
+                }
+            }
         }
     }
 
@@ -63,18 +72,23 @@ public class AdjacencyMatrix {
         String rep="";
         int i;
         rep+="\t";
+        // ajout des noms sur les colonnes
         for (String stg: names){
             rep+="\t"+stg;
         }
         rep+="\n\t";
-        for (int j=0; j<size();j++){
+
+        // ajout des | pour les colonnes :
+        for (int j = 0; j< getSize(); j++){
             rep+="\t|";
         }
         rep+="\n";
         i=0;
         for (ArrayList<Integer> vertex: data) {
+            // ajout du nom sur les lignes
             rep+=names.get(i) + "\t-";
             i++;
+            // parcours de la sous liste (ArrayList<Integer> dans l'ArrayList data)
             for (Integer nb:vertex) {
                 rep+=" \t"+nb;
             }
@@ -83,11 +97,11 @@ public class AdjacencyMatrix {
         return rep;
     }
 
-    public int size() {
+    public int getSize() {
         return data.size();
     }
 
-    public int getWeight(int index, int subIndex) {
+    public int getVertex(int index, int subIndex) {
         return data.get(index).get(subIndex);
     }
 
@@ -96,7 +110,7 @@ public class AdjacencyMatrix {
     }
 
     public void setNames(ArrayList<String> names) throws WrongSizeException {
-        if (names.size() != this.size()){
+        if (names.size() != this.getSize()){
             throw new WrongSizeException();
         }
         this.names = names;
@@ -104,5 +118,9 @@ public class AdjacencyMatrix {
 
     public boolean isOrientedMx() {
         return orientedMx;
+    }
+
+    public ArrayList<ArrayList<Integer>> getData() {
+        return data;
     }
 }
