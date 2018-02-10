@@ -93,13 +93,18 @@ public class GraphzDotConverter {
             else {
                 dotContent += matrix.getName(i) + ";\n";
             }
-            if (matrix.isOrientedMx() || dijkstra) {
+            if (matrix.isOrientedMx()) {
                 k = 0;
                 cha=" -> ";
-            } else {
+            } else if(dijkstra) {
+                k = 0;
+                cha=" -- ";
+            }
+            else {
                 k = i;
                 cha=" -- ";
             }
+
             for (int j=k; j<size; j++) {
                 weight=matrix.getVertex(i,j);
                 if (weight!=0){

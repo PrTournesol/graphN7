@@ -2,6 +2,8 @@ package model;
 
 import java.util.ArrayList;
 
+import exceptions.NonOrientedMatrixException;
+import exceptions.OrientedMatrixException;
 import exceptions.VertexInexistentException;
 import exceptions.WrongSizeException;
 
@@ -49,29 +51,40 @@ public class AdjacencyMatrix {
         this.data= new ArrayList< ArrayList<Integer>>();
     }
 
-    public void addVertexNonOriented (ArrayList<Integer> newVertex, int index) throws WrongSizeException {
-        if ((data.size()+1) != newVertex.size()) {
+    public void addVertexNonOriented (ArrayList<Integer> newEdgesWeight, int index, String name) throws WrongSizeException, OrientedMatrixException {
+        if ((data.size()+1) != newEdgesWeight.size()) {
             throw new WrongSizeException();
+        }
+        if (orientedMx){
+            throw new OrientedMatrixException();
         }
         for (int i=0; i<index;i++) {
-            data.get(i).add(index,newVertex.get(i));
+            this.set(i,index,newEdgesWeight.get(i));
         }
         for (int i=index; i<data.size();i++) {
-            data.get(i).add(index,newVertex.get(i+1));
+            this.set(i,index,newEdgesWeight.get(i+1));
         }
-        data.add(index, newVertex);
+        data.add(index, newEdgesWeight);
+        names.add(index,name);
+        size+=1;
     }
 
-    public void addVertexnOriented (ArrayList<Integer> vertex, int index) throws WrongSizeException {
-        if ((data.size()+1) != vertex.size()) {
+    public void addVertexnOriented (ArrayList<Integer> outgoingEdgesWeight, ArrayList<Integer> enteringEdgesWeight, int index, String name) throws WrongSizeException, NonOrientedMatrixException {
+        if ((data.size()+1) != outgoingEdgesWeight.size() || (data.size()+1) != enteringEdgesWeight.size()) {
             throw new WrongSizeException();
         }
-        for (int i=1; i<=data.size();i++) {
-            //TODO
-            System.out.println("TODO");
-            // existingVertex.add(index,0);
+        if (!orientedMx){
+            throw new NonOrientedMatrixException();
         }
-        data.add(index, vertex);
+        for (int i=0; i<index;i++) {
+            this.set(i,index,enteringEdgesWeight.get(i));
+        }
+        for (int i=index; i<data.size();i++) {
+            this.set(i,index,enteringEdgesWeight.get(i+1));
+        }
+        data.add(index, outgoingEdgesWeight);
+        names.add(index,name);
+        size+=1;
     }
 
     public void delVertex (int vertexNumber) throws VertexInexistentException {
@@ -79,6 +92,7 @@ public class AdjacencyMatrix {
             throw new VertexInexistentException();
         }
         data.remove(vertexNumber);
+        names.remove(vertexNumber);
         for (ArrayList<Integer> vertex: data) {
             vertex.remove(vertexNumber);
         }
@@ -87,6 +101,9 @@ public class AdjacencyMatrix {
     public String toString(){
         String rep="";
         int i;
+        if (size==0){
+            return "Empty matrix []";
+        }
         rep+="\t";
         // ajout des noms sur les colonnes
         for (String stg: names){
@@ -136,8 +153,13 @@ public class AdjacencyMatrix {
         return orientedMx;
     }
 
-    public int set(int index, int subIndex, int element) {
-        return data.get(index).set(subIndex, element);
+    public void set(int index, int subIndex, int element) {
+        try {
+            data.get(index).add(subIndex,element);
+        }
+        catch (IndexOutOfBoundsException e){
+            data.get(index).add(element);
+        }
     }
 
     public ArrayList<Integer> getAdjecents(int index) {

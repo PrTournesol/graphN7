@@ -19,7 +19,7 @@ public class BFSalgorithm {
   public static void main (String[] Args) throws VertexInexistentException{
       //génération de la matrice
       AdjacencyMatrix matrix;
-      MatrixGenerator mg = new MatrixGenerator(10,false);
+      MatrixGenerator mg = new MatrixGenerator(5,false);
       matrix = mg.generateCompleteGraph();
       System.out.println("\n"+matrix.toString());
 
