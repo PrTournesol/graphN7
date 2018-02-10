@@ -1,10 +1,10 @@
 package model;
 
-public class BFSvertex implements Cloneable{
+public class AlgoVertex implements Cloneable{
     public int distToSource;
-    public BFScolors color;
+    public GraphColors color;
 
-    public BFSvertex(int distToSource, BFScolors color) {
+    public AlgoVertex(int distToSource, GraphColors color) {
         this.distToSource = distToSource;
         this.color = color;
     }
@@ -17,8 +17,8 @@ public class BFSvertex implements Cloneable{
                 '}';
     }
 
-    public BFSvertex copy() {
-        BFSvertex newVertex = new BFSvertex(distToSource,color);
+    public AlgoVertex copy() {
+        AlgoVertex newVertex = new AlgoVertex(distToSource,color);
         return newVertex;
     }
 }

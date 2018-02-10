@@ -1,6 +1,6 @@
 package model;
 
-public enum BFScolors {
+public enum GraphColors {
     WHITE,
     BLACK,
     GREY;

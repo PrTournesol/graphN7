@@ -17,10 +17,10 @@ public class MatrixGenerator {
         System.out.println("Matrix generator test :");
         AdjacencyMatrix matrix;
         MatrixGenerator mg = new MatrixGenerator(10);
-        matrix = mg.generateRandGraph();
+        matrix = mg.generateRandGraph(false);
         System.out.println("Rand Non-oriented matrix generated :\n"+matrix.toString());
         mg.setOrientedMx(true);
-        matrix = mg.generateRandGraph();
+        matrix = mg.generateRandGraph(false);
         System.out.println("Rand oriented matrix generated :\n"+matrix.toString());
 
         matrix = mg.generateCycleGraphOriented();
@@ -52,7 +52,7 @@ public class MatrixGenerator {
         theMatrix=null;
     }
 
-    public AdjacencyMatrix generateRandGraph() {
+    public AdjacencyMatrix generateRandGraph(boolean random) {
         ArrayList<Integer> subMatrix;
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<ArrayList<Integer>>(size);
         int k;
@@ -68,9 +68,14 @@ public class MatrixGenerator {
                 if (rand.nextInt(10)<7){
                     subMatrix.add(0);
                 }
-                else{
-                    subMatrix.add(rand.nextInt(100));
+                else if (random){
+                        subMatrix.add(rand.nextInt(10));
+                    }
+                    else{
+                        subMatrix.add(rand.nextInt(2));
+
                 }
+
             }
 
             matrix.add(subMatrix);
@@ -168,7 +173,7 @@ public class MatrixGenerator {
                 k = i;
             }
             for (int j=k; j<=size; j++) {
-                subMatrix.add(rand.nextInt(100));
+                subMatrix.add(rand.nextInt(10)+1);
             }
             matrix.add(subMatrix);
         }

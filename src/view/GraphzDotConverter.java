@@ -1,9 +1,10 @@
-package controller;
+package view;
 
+import controller.MatrixGenerator;
 import exceptions.NonOrientedMatrixException;
 import model.AdjacencyMatrix;
-import model.BFSvertex;
-import static model.BFScolors.*;
+import model.AlgoVertex;
+import static model.GraphColors.*;
 import java.io.*;
 import java.util.ArrayList;
 
@@ -22,8 +23,8 @@ public class GraphzDotConverter {
 
         //génération de la matrice
         AdjacencyMatrix matrix;
-        MatrixGenerator mg = new MatrixGenerator(4,true);
-        matrix = mg.generateRandGraph();
+        MatrixGenerator mg = new MatrixGenerator(4,false);
+        matrix = mg.generateCompleteGraph();
         System.out.println("\n"+matrix.toString());
 
         //test du convertisseur :
@@ -71,20 +72,20 @@ public class GraphzDotConverter {
         dotContent+="}";
     }
 
-    public void bfsToGpzString(AdjacencyMatrix matrix, ArrayList<BFSvertex> bfsStep){
+    public void ColoredVerticesToGpzString(AdjacencyMatrix matrix, ArrayList<AlgoVertex> bfsStep, boolean dijkstra){
         int size = matrix.getSize();
         int k,weight;
         boolean insert;
         String cha;
         if (matrix.isOrientedMx()) {
-            dotContent="digraph {\nforcelabels=true;\n";
+            dotContent="digraph {\n";
         }
         else {
-            dotContent= "graph {\nforcelabels=true;\n";
+            dotContent= "graph {\n";
         }
         for (int i=0; i<size; i++){
             if (bfsStep.get(i).color==BLACK){
-                dotContent += matrix.getName(i) + " [label=<"+i+"<BR/>\n<FONT POINT-SIZE=\"10\">d="+bfsStep.get(i).distToSource+"</FONT>>,style=filled,color=BLACK,fontcolor=white];\n";
+                dotContent += matrix.getName(i) + " [label=<"+i+"<BR/>\n<FONT POINT-SIZE=\"12\">d="+bfsStep.get(i).distToSource+"</FONT>>,style=filled,color=BLACK,fontcolor=white];\n";
             }
             else if (bfsStep.get(i).color==GREY){
                 dotContent += matrix.getName(i) + " [style=filled,color=grey] ;\n";
@@ -92,7 +93,7 @@ public class GraphzDotConverter {
             else {
                 dotContent += matrix.getName(i) + ";\n";
             }
-            if (matrix.isOrientedMx()) {
+            if (matrix.isOrientedMx() || dijkstra) {
                 k = 0;
                 cha=" -> ";
             } else {

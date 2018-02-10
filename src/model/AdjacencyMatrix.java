@@ -11,6 +11,7 @@ public class AdjacencyMatrix {
     private boolean orientedMx; //true if the theMatrix to generate is oriented
     private int size;
 
+
     public AdjacencyMatrix(ArrayList<ArrayList<Integer>> data, boolean oriented) {
         this.data = data;
         this.orientedMx=oriented;
@@ -27,6 +28,21 @@ public class AdjacencyMatrix {
                 }
             }
         }
+    }
+
+    public AdjacencyMatrix(int size, boolean oriented) {
+        this.data = new ArrayList<>(size);
+        this.orientedMx=oriented;
+        this.names = new ArrayList<>();
+        this.size=size;
+        // complete the vertexes with the good one
+            for (int i = 0; i < size; i++) {
+                names.add(""+i);
+                data.add(new ArrayList<>(size));
+                for (int j = 0; j < size; j++) {
+                    data.get(i).add(0);
+                }
+            }
     }
 
     public AdjacencyMatrix() {
@@ -120,7 +136,11 @@ public class AdjacencyMatrix {
         return orientedMx;
     }
 
-    public ArrayList<ArrayList<Integer>> getData() {
-        return data;
+    public int set(int index, int subIndex, int element) {
+        return data.get(index).set(subIndex, element);
+    }
+
+    public ArrayList<Integer> getAdjecents(int index) {
+        return data.get(index);
     }
 }
