@@ -12,8 +12,8 @@ import static model.GraphColors.*;
 
 public class BFSalgorithm {
     private AdjacencyMatrix matrix;
-    private ArrayList<ArrayList<AlgoVertex>> algorithmSteps;
-    private AdjacencyMatrix tree;
+    ArrayList<ArrayList<AlgoVertex>> algorithmSteps;
+    AdjacencyMatrix tree;
     private int size;
 
   public static void main (String[] Args) throws VertexInexistentException{
@@ -31,13 +31,13 @@ public class BFSalgorithm {
       for (ArrayList<AlgoVertex> step : bfs.algorithmSteps) {
           gpzGenerator.ColoredVerticesToGpzString(matrix,step,false);
           gpzGenerator.generateFile("./graphs/graph"+i+".dot");
-          gpzGenerator.generateSVG("./graphs/graph"+i+".dot");
+          gpzGenerator.dotConvertTo("./graphs/graph"+i+".dot","svg");
           i+=1;
       }
       System.out.println("tree :");
       gpzGenerator.ColoredVerticesToGpzString(bfs.tree,bfs.algorithmSteps.get(bfs.algorithmSteps.size()-1),false);
       gpzGenerator.generateFile("./graphs/graphTree.dot");
-      gpzGenerator.generateSVG("./graphs/graphTree.dot");
+      gpzGenerator.dotConvertTo("./graphs/graphTree.dot","svg");
       System.out.println("fin :");
 
 

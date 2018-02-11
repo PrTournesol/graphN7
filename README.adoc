@@ -1,0 +1,101 @@
+= Graph Theory - TP option 1
+
+Maël Soulié - ENSEEIHT App IR
+
+___
+
+== Getting start
+
+* Java 
+** verify you have the jdk 1.8 installed, in a terminal : 
+    
+    javac -version
+    
+*** you shoud have
+
+    javac 1.8.xxx
+    
+*** if not, dowload and install from http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html[here] 
+
+* Git :
+** in a terminal :
+
+    Git
+    
+*** you should have : 
+    
+    $ git
+    usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+           
+
+*** if not, dowload Git from https://git-scm.com/download[here]  and install
+** clone the repository, and go in :
+
+    git clone https://github.com/PrTournesol/graphN7.git
+    cd graphN7
+
+* Graphviz :
+** on Windows : nothing is necessary
+** on Linux or Max :
+    
+    chmod u+x lib/graphviz/linux_bin/dot
+    
+*** this is the binary of Graphviz, if you don't trust mine, you'll find the offitial on https://www.graphviz.org/download/[this] page, you could also make this if you have a package manager like apt :
+    
+    apt-get install graphviz
+    
+*** After installing the package on your system, please copy the dot binary on this path lib/graphviz/linux_bin/dot
+
+    cp <your dot binary path> lib/graphviz/linux_bin/dot
+    
+*** repeat the chmod command if dot hasn't execute right
+
+* Ant :
+** verify you have ant installed, in a terminal : 
+    
+    ant
+    
+*** you shoud have
+
+    Buildfile: build.xml does not exist!
+    Build failed
+
+*** if not, dowload and install from http://ant.apache.org/[here]
+
+== Compile the project
+** On project folder, in a terminal : 
+
+    ant build
+
+== Launch the main
+** On project folder, in a terminal : 
+
+    ant main  
+    
+** you will see the main menu appears, you have the choice to generate a complete, cycle or random graph. The second type of random is vertices with maximum 1 of weight
+
+** generated graphs are under graphs folder
+
+== Launch a simple Dijkstra
+** On project folder, in a terminal : 
+
+    ant Disjkstra  
+
+** generated graphs are under graphs folder
+
+== Launch a simple BFS
+** On project folder, in a terminal : 
+
+    ant BFS  
+
+** generated graphs are under graphs folder
+
+
+
+
+
+

@@ -11,9 +11,9 @@ import static model.GraphColors.*;
 
 public class DisjkstraAlgorithm {
     private AdjacencyMatrix matrix;
-    private ArrayList<ArrayList<AlgoVertex>> algorithmSteps;
+    ArrayList<ArrayList<AlgoVertex>> algorithmSteps;
     private int size;
-    private AdjacencyMatrix predecessors;
+    AdjacencyMatrix predecessors;
 
 
     public static void main (String[] Args) throws VertexInexistentException {
@@ -31,13 +31,13 @@ public class DisjkstraAlgorithm {
         for (ArrayList<AlgoVertex> step : djk.algorithmSteps) {
             gpzGenerator.ColoredVerticesToGpzString(matrix,step,true);
             gpzGenerator.generateFile("./graphs/graph"+i+".dot");
-            gpzGenerator.generateSVG("./graphs/graph"+i+".dot");
+            gpzGenerator.dotConvertTo("./graphs/graph"+i+".dot","svg");
             i+=1;
         }
         System.out.println(djk.predecessors.toString());
         gpzGenerator.ColoredVerticesToGpzString(djk.predecessors,djk.algorithmSteps.get(djk.algorithmSteps.size()-1),true);
         gpzGenerator.generateFile("./graphs/graphTree.dot");
-        gpzGenerator.generateSVG("./graphs/graphTree.dot");
+        gpzGenerator.dotConvertTo("./graphs/graphTree.dot","svg");
 
 
     }

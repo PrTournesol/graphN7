@@ -23,7 +23,7 @@ public class GraphzDotConverter {
 
         //génération de la matrice
         AdjacencyMatrix matrix;
-        MatrixGenerator mg = new MatrixGenerator(4,false);
+        MatrixGenerator mg = new MatrixGenerator(5,false);
         matrix = mg.generateCompleteGraph();
         System.out.println("\n"+matrix.toString());
 
@@ -33,7 +33,7 @@ public class GraphzDotConverter {
         System.out.println(gpzGenerator.getDotContent());
 
         gpzGenerator.generateFile("./graphs/graph.dot");
-        gpzGenerator.generateSVG("./graphs/graph.dot");
+        gpzGenerator.dotConvertTo("./graphs/graph.dot","png");
 
 
     }
@@ -116,14 +116,33 @@ public class GraphzDotConverter {
         dotContent+="}";
     }
 
+    private void suppr(File r){
+        File [] fileList = r.listFiles();
+        for(int i = 0;i<fileList.length;i++){
+          if(fileList[i].isDirectory() ){
+            suppr(fileList[i]);
+            fileList[i].delete();
+          }else{
+        	  fileList[i].delete();
+          }
+        }
+     }
+    
     public void prepareEnv() {
         //System.out.println("Nom de l'os : "+osName);
         File fic = new File("./graphs");
+    	if (!fic.exists()) {
+    		fic.mkdir();
+    	}
+    	else {
+    		suppr(fic);
+    		fic.mkdir();
+    	}
+        /*fic = new File("./lib/graphviz/");
         if (!fic.exists()) {
-            fic.mkdir();
-        }
-        fic = new File("./graphviz");
-        if (!fic.exists()) {
+        	System.out.println("Please follow the Graphviz preparation step described in README.adoc");
+        }*/
+        /*if (!fic.exists()) {
             try {
                 Process p = Runtime.getRuntime().exec("jar xf Graph_TP_option1.jar graphviz");
                 java.io.BufferedReader out = new java.io.BufferedReader(new java.io.InputStreamReader(p.getInputStream()));
@@ -135,12 +154,11 @@ public class GraphzDotConverter {
             } catch (IOException e) {
                 System.out.println(e.getMessage());
             }
-        }
+        }*/
     }
 
 
     public void generateFile (String name) {
-        this.prepareEnv();
         Writer writer = null;
         try {
             writer = new BufferedWriter(new OutputStreamWriter(
@@ -159,18 +177,21 @@ public class GraphzDotConverter {
         dot = new File(name);
     }
 
-    public void generateSVG (String name) {
+    public void dotConvertTo (String name, String type) {
         String command;
         if (osName.contains("Windows")) {
             // TODO : remove lib/ for export jar
             command = "lib/graphviz/windows_bin/dot ";
         } else {
-            command = "graphviz/linux_bin/dot ";
+            command = "lib/graphviz/linux_bin/dot ";
         }
 
-        command += " -Tsvg -o ";
+        command += " -T";
+        command+= type;
+        command+=" -o ";
         command += name.substring(0, name.length() - 3);
-        command += "svg ";
+        command += type;
+        command+=" ";
         command += name;
         //System.out.println(command);
         try {
@@ -181,13 +202,16 @@ public class GraphzDotConverter {
                 System.out.println(line);
                 System.out.flush();
             }
+            System.out.print("Exec of \n\t");
+            System.out.println(command);
+            System.out.println("\t"+name.substring(0, name.length() - 3)+type+" generated");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
 
         //TODO remove try catch (pour lancer firefox
-        try {
-            Process p = Runtime.getRuntime().exec("cmd /c start firefox -new-tab "+ name.substring(0, name.length() - 3)+"svg");
+        /*try {
+            Process p = Runtime.getRuntime().exec("cmd /c start firefox -new-tab "+ name.substring(0, name.length() - 3)+type);
             java.io.BufferedReader out = new java.io.BufferedReader(new java.io.InputStreamReader(p.getInputStream()));
             String line;
             while((line=out.readLine())!= null){
@@ -196,7 +220,7 @@ public class GraphzDotConverter {
             }
         } catch (IOException e) {
             System.out.println(e.getMessage());
-        }
+        }*/
 
     }
 
