@@ -141,8 +141,14 @@ public class AdjacencyMatrix {
     public String getName(int index){
         return names.get(index);
     }
+    
+    
 
-    public void setNames(ArrayList<String> names) throws WrongSizeException {
+    public Object[] namesToArray() {
+		return names.toArray();
+	}
+
+	public void setNames(ArrayList<String> names) throws WrongSizeException {
         if (names.size() != this.getSize()){
             throw new WrongSizeException();
         }
