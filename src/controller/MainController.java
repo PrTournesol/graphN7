@@ -139,7 +139,7 @@ public class MainController {
             System.out.println("0 - Quit");
 
             selection = input.nextInt();
-		} while (selection<0 || selection >3);
+		} while (selection<0 || selection >4);
         return selection;    
     }
 	
